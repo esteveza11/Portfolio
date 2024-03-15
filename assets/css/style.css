@@ -168,8 +168,7 @@ img {
     .profile-pic {
         justify-content: center;
         img {
-            width: 100px;
-            max-width: 100%;
+            width: auto;
             height: auto;
           }
     }
@@ -188,8 +187,7 @@ img {
       width: 90%;
 
       img {
-        width: 100px;
-        max-width: 100%;
+        width: auto;;
         height: auto;
       }
     }
