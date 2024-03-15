@@ -167,12 +167,17 @@ img {
     }
     .profile-pic {
         justify-content: center;
+        img {
+            max-width: 100%;
+            height: auto;
+          }
     }
     .item-detail {
       flex: 2 100%;
       text-align: left;
       justify-content: left;
       display: flex;
+      }
     }
     .item-detail img {
       flex: 0 32%;
@@ -180,6 +185,11 @@ img {
       margin-top: 15px;
       margin-bottom: 15px;
       width: 90%;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
     }
     a {
       flex-direction: column;
